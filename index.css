@@ -109,10 +109,14 @@
 
 .image{
   float: left;
+	width:50%;
+	text-align: left;
 }
 
 .info{
   float: right;
+	width: 50%;
+	text-align: left;
 }
 
 p{
