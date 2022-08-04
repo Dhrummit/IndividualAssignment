@@ -1,0 +1,147 @@
+.main-content{
+    background: black;
+    background-image: url("cback.jpg");
+    background-size: cover;
+}
+
+#container {
+    /* background-color: floralwhite; */
+    background-color: whitesmoke;
+    margin: 2px auto;
+    width: 50%;
+    /* padding: 10px; */
+    font-size: 1.6rem;
+    padding-bottom: 2em;
+    letter-spacing: 0.7px;
+    min-width: 260px;
+    border-radius: 10px;
+}
+
+.form-header, .output-header {
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 0.5em 0em 0.2em 0em;
+    margin: 0.5em;
+    font-size: 1.8rem;
+}
+
+.secondary-text{
+    font-size: 1.6rem;
+}
+
+.headerLine, .output-header {
+    border-bottom: 3px solid darkslategray;
+    margin-bottom: 1em;
+}
+
+.contactForm {
+    margin: 0em 2em;
+}
+
+.input-group {
+    margin-bottom: 1em;
+    /* margin-left: 2em; */
+}
+
+.input-row {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], textarea{
+    display: block;
+    width: 90%;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    font-size: 1.4rem;
+    padding: 0.2em;
+    /*border: 2px solid red;*/
+    /* margin-bottom: 20px; */
+}
+
+.formSubmit{
+    margin: 10px;
+    background-color: darkslategray;
+    color: snow;
+    font-weight: bold;
+    font-size: 0.7em;
+    padding: 0.5em;
+    width: 100%;
+    min-width: 40px;
+    max-width: 200px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+ .formSubmit:hover {
+        cursor: pointer;
+    }
+
+    /* for output */
+    #output-container{
+        /* background-color: floralwhite; */
+        background-color: whitesmoke;
+        margin: 0.5rem auto;
+        width: 50%;
+        min-width: 260px;
+        /* padding: 10px; */
+        font-size: 1.6rem;
+        /* padding: 2em; */
+        letter-spacing: 0.7px;
+        display: none;
+        border-radius: 10px;
+        
+    }
+    
+    .output-label, .output{
+        font-weight: bold;
+    }
+    
+    
+    .output{
+        text-align: center;
+        height: fit-content;
+    }
+    
+    
+    .output-user-details{
+        margin: 2px auto;
+        width: 90%;
+        max-width: 30em;
+        /* border: 1px solid black; */
+        padding-bottom: 1em;
+    }
+    
+    
+    .grid-container {
+        display: grid;
+        grid: 1.5em / 1fr 1fr;
+        
+        grid-gap: 1rem;
+        padding: 1rem;
+        margin-bottom: 10px;
+        height: fit-content;
+    }
+
+
+    .output-name{
+        background-color: linen;
+    }
+    
+    .error{
+        color: red;
+    }
+    
+    
+    
+    
+    
+    
+    

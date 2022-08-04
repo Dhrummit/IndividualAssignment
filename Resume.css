@@ -1,0 +1,65 @@
+.resume-container{
+    background-image: url("back2.jpg");
+}
+
+
+.container{
+    background-color: whitesmoke;
+    margin: 2px auto;
+    width: 80%;
+    /* padding: 10px; */
+    font-size: 1.6rem;
+    padding-bottom: 2em;
+    letter-spacing: 0.7px;
+    min-width: 260px;
+    border-radius: 10px;
+    
+}
+
+.resume-header {
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 0.5em 0em 0.2em 0em;
+    margin: 0.5em;
+    font-size: 1.8rem;
+}
+
+.secondary-text{
+    font-size: 1.6rem;
+}
+
+.headerLine{
+    border-bottom: 3px solid darkslategray;
+    margin-bottom: 1em;
+}
+
+.main-content {
+    margin: 0em 2em;
+}
+
+.summary, .technical-skills, .education{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+}
+
+ul{
+    padding: 1em 1.5em;
+}
+
+.title{
+    margin-bottom: 15px;
+}
+
+.college{
+    margin: 20px 0;
+}
+
+
+img{
+    border-radius: 50%;
+    border: 5px solid darkslategray;
+}
+
+

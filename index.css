@@ -1,0 +1,117 @@
+.index-container{
+  background: black;
+}
+#home-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 60px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: blur(1px);
+  }
+  
+  .video-content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+
+  .fa {
+    padding: 10px 0px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+  .fa:hover {
+    cursor: pointer;
+  }
+
+
+  .fa-instagram {
+    background: mediumvioletred;
+    color: white;
+    
+  }
+
+  .fa-facebook {
+    background: darkblue;
+    color: white;
+  }
+
+  
+  .fa-twitter {
+    background: dodgerblue;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: deepskyblue;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: red;
+    color: white;
+  }
+
+ 
+
+  .reference{
+    float: right;
+    padding-right: 60px;;
+  }
+
+  .reference a:link {
+    color: darkorange;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+   }
+
+   .reference a:visited { 
+    color: bisque;
+  } 
+
+   .reference a:hover { 
+    cursor: pointer;
+   }
+
+   img{
+    border-radius: 50%;
+    border: 5px solid darkslategray;
+    width: 150px;
+    height: 150px;
+}
+
+.main-content {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 50%;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.main-content::after{
+	content: ""; 
+	display: block; 
+	clear: both; 
+}
+
+.image{
+  float: left;
+}
+
+.info{
+  float: right;
+}
+
